@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: #fff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(255, 205, 5);
+    text-align: center;
+}
+
+.big-div {
+    border: 3px solid #2E549B;
+    margin: 30px;
+    padding: 20px;
+}
+
+.pokemon-name {
+    text-align: center;
+    font: bold;
+    font-size: 2em;
+    margin: 10px;
+}
+
+.sub-div {
+    display: flex;
+}
+
+img {
+    width: 250px;
+    padding-right: 50px;
+}
+
+#special {
+    font-weight: cold;
+    color: rgb(255, 203, 3);
+}
