@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Lato';
+    background-color: hsl(0, 0%, 8%);
+}
+
+.box {
+    display: inline-block;
+    position: absolute;
+    width: 375px;
+    height: 470px;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 10px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.div-photo {
+    text-align: center;
+}
+
+.photo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+
+p {
+    text-align: center;
+    color: hsl(0, 0%, 80%);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.div-lista {
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5%, -5%);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
