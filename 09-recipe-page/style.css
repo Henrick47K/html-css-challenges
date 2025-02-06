@@ -1,23 +1,40 @@
 @charset "UTF-8";
-
+/* Fontes CSS*/
 @font-face {
     font-family: 'varifont';
     src: url('recipe-page-main/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
 }
-
 @font-face {
     font-family: 'youngserif';
     src: url('recipe-page-main/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf');
 }
 
 body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
     font-family: 'varifont';
+    background-color: hsl(30, 54%, 90%);
+    margin: 60px 0;
+}
+
+.box {
+    width: 610px;
+    padding: 30px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.omelette{
+    text-align: center;
 }
 
 .photo-omelette {
-    width: 500px;
-    border-radius: 5px;
+    width: 600px;
+    border-radius: 8px;
 }
+
 
 h1,h2 {
     font-family: 'youngserif';
@@ -27,6 +44,29 @@ h2 {
     color: hsl(14, 45%, 36%);
 }
 
+.preparation {
+    background-color: hsla(332, 51%, 32%, 0.08);
+    border-radius: 6px;
+    padding: 8px;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation h3 {
+    margin-left: 22px;
+}
+
+section {
+    color: hsl(30, 10%, 34%);
+}
+
+section h2 {
+    margin-left: 22px;
+}
+
 h3 {
     color: hsl(332, 51%, 32%);
+}
+
+li {
+    padding: 10px;
 }
